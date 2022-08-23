@@ -1,4 +1,4 @@
-let employee = [{"id":1,"name":"Wallace","email":"wdimock0@discovery.com"},
+let employee =[{"id":1,"name":"Wallace","email":"wdimock0@discovery.com"},
 {"id":2,"name":"Lamar","email":"lgeratasch1@ox.ac.uk"},
 {"id":3,"name":"Anderson","email":"ahylton2@blogtalkradio.com"},
 {"id":4,"name":"Free","email":"fbrisson3@spiegel.de"},
@@ -100,3 +100,14 @@ let employee = [{"id":1,"name":"Wallace","email":"wdimock0@discovery.com"},
 {"id":100,"name":"Cherey","email":"cachrameev2r@1und1.de"}]
  
 
+function getemployee(){
+    let rows =""
+    for(emp of employee){
+        rows = rows + `<tr>
+        <td>${emp.id}</td>
+        <td>${emp.name}</td>
+        <td>${emp.email}</td> </tr>`
+    }
+    document.getElementById("table_data").innerHTML = rows
+
+}
