@@ -111,3 +111,14 @@ function getemployee(){
     document.getElementById("table_data").innerHTML = rows
 
 }
+function getemployee(){
+    let rows=""
+ for(emp of employee){
+ rows=rows +`<tr>
+ <td>${emp.id}</td>
+ <td>${emp.name}</td>
+ <td>${emp.email}</td>
+ <td>${emp.gender}</td>`
+ }
+ document.getElementById("34").innerHTML= rows
+ }
