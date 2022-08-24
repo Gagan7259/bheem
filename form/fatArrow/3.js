@@ -4,3 +4,11 @@ let add = () => {
 }
 add()
 add()
+
+let b = 10
+let net = () => {
+    console.log("Addition")
+}
+add()
+add()
+
