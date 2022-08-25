@@ -3,4 +3,4 @@ let add = (a, b, c) => {
 }
 
 let r1 = add(1, 2, 3)
-console.log(r1)
+console.log(r1) 
