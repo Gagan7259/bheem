@@ -116,7 +116,7 @@ function getemployee(){
  for(emp of employee){
  rows=rows +`<tr>
  <td>${emp.id}</td>
- <td>${emp.name}</td>
+ <td>${emp.name}.</td>
  <td>${emp.email}</td>
  <td>${emp.gender}</td>`
  }
